@@ -1,0 +1,46 @@
+
+div {
+  display: flex;
+  flex-flow: column;
+  height:100%;
+
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 3px;
+  padding-left: 3px;
+
+  text-align: center;
+}
+
+#toppanel{
+  background-color: #d2d5db;
+  height: 20%;
+}
+
+#mainpanel{
+  background-color: #e6e8ed;
+  height: 70%;
+}
+
+
+#bottompanel{
+  /* background-color: #d2d5db; */
+  background-color: red;
+  height: 10%;
+}
+
+
+th {
+  text-align:left;
+}
+td {
+  text-align:left;
+}
+table {
+   margin: 0 auto; /* or margin: 0 auto 0 auto */
+   table-layout:fixed;
+ }
+
+ .table th, .table td {
+    height: 20px;
+}
